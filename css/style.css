@@ -7,3 +7,22 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }   
+body{
+    overflow-x: hidden;
+}
+/* Loader section styles */
+.loader{
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+}
+.img_load{
+    width: 40px;
+    object-fit: cover;
+}
+/* //Loader section styles */
