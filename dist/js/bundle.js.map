@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;AAAa;AACb;AACA;AACA,CAAC,C","sources":["webpack://hexashop/./src/js/script.js"],"sourcesContent":["'use strict';\r\nwindow.addEventListener('DOMContentLoaded', ()=>{\r\n    \r\n})"],"names":[],"sourceRoot":""}
