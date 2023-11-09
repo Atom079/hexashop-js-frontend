@@ -1,76 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hexashop Javascript Project</title>
     <!-- Font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Icon link -->
-    <link rel="icon" href="">
+    <link rel="icon" href="" />
     <!-- CSS link -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Media css link -->
-    <link rel="stylesheet" href="./css/media.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
     <!-- Loader section -->
     <section class="loader">
-        <img src="./imgs/loading.gif" alt="loading" class="img_load">
+      <img src="./imgs/loading.gif" alt="loading" class="img_load" />
     </section>
     <!-- //Loader section -->
     <!-- Header section -->
     <header class="header">
-        <div class="container">
-            <div class="content">
-                <div class="header_logo">
-                    <img src="./imgs/logo.png" alt="logo" class="logo">
-                </div>
-                <!-- Navbar section -->
-                <nav class="navigation">
-                    <a href="#" class="nav_item active">Home</a>
-                    <a href="#" class="nav_item">Men's</a>
-                    <a href="#" class="nav_item">Women's</a>
-                    <a href="#" class="nav_item">Kid's</a>
-                    <div class="nav_item dropdown">
-                        <p class="dropdown_title">
-                            Pages 
-                            <i class="fa-sharp fa-solid fa-chevron-down show"></i> 
-                            <i class="fa-sharp fa-solid fa-chevron-up hide"></i> 
-                        </p>
-                        <div class="dropdown_menu">
-                            <a href="#" class="dropdown_item">About Us</a>
-                            <a href="#" class="dropdown_item">Products</a>
-                            <a href="#" class="dropdown_item">Single Products</a>
-                            <a href="#" class="dropdown_item">Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="nav_item dropdown">
-                        <p class="dropdown_title">
-                            Features
-                            <i class="fa-sharp fa-solid fa-chevron-down show"></i> 
-                            <i class="fa-sharp fa-solid fa-chevron-up hide"></i> 
-                        </p>
-                        <div class="dropdown_menu">
-                            <a href="#" class="dropdown_item">Features Page 1</a>
-                            <a href="#" class="dropdown_item">Features Page 2</a>
-                            <a href="#" class="dropdown_item">Features Page 3</a>
-                            <a href="#" class="dropdown_item">Features Page 4</a>
-                        </div>
-                    </div>
-                    <a href="#" class="nav_item">Explore</a>
-                </nav>
-                <!-- //Navbar section -->
-                <div class="burger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+      <div class="container">
+        <div class="content">
+          <div class="header_logo">
+            <img src="./imgs/logo.png" alt="logo" class="logo" />
+          </div>
+          <!-- Navbar section -->
+          <nav class="navigation">
+            <a href="#home" class="nav_item active">Home</a>
+            <a href="#" class="nav_item">Men's</a>
+            <a href="#" class="nav_item">Women's</a>
+            <a href="#" class="nav_item">Kid's</a>
+            <div class="nav_item dropdown">
+              <p class="dropdown_title">
+                Pages
+                <i class="fa-sharp fa-solid fa-chevron-down show"></i>
+                <i class="fa-sharp fa-solid fa-chevron-up hide"></i>
+              </p>
+              <div class="dropdown_menu">
+                <a href="#" class="dropdown_item">About Us</a>
+                <a href="#" class="dropdown_item">Products</a>
+                <a href="#" class="dropdown_item">Single Products</a>
+                <a href="#" class="dropdown_item">Contact Us</a>
+              </div>
             </div>
+            <div class="nav_item dropdown">
+              <p class="dropdown_title">
+                Features
+                <i class="fa-sharp fa-solid fa-chevron-down show"></i>
+                <i class="fa-sharp fa-solid fa-chevron-up hide"></i>
+              </p>
+              <div class="dropdown_menu">
+                <a href="#" class="dropdown_item">Features Page 1</a>
+                <a href="#" class="dropdown_item">Features Page 2</a>
+                <a href="#" class="dropdown_item">Features Page 3</a>
+                <a href="#" class="dropdown_item">Features Page 4</a>
+              </div>
+            </div>
+            <a href="#" class="nav_item">Explore</a>
+          </nav>
+          <!-- //Navbar section -->
+          <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
+      </div>
     </header>
     <!-- //Header section -->
-    <div class="ctx" style="height: 500vh"></div>
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="content">
+        <div class="left_side">
+          <div class="home_item">
+            <img
+              src="./imgs/left-banner-image.jpg"
+              alt="Left img"
+              class="left_img"
+            />
+            <div class="text">
+              <h1>We Are Hexashop</h1>
+              <p>Awesome, clean & creative HTML5 Template</p>
+              <div class="btn">
+                <a href="#">Purchase Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_side">
+          <div class="row">
+            <div class="home_item">
+              <img
+                src="./imgs/baner-right-image-01.jpg"
+                alt="Right Images"
+                class="right_img"
+              />
+              <div class="text">
+                <h2>Women</h2>
+                <p>Best Clothes For Women</p>
+              </div>
+              <div class="hover_text">
+                <div class="inner">
+                  <h2>Women</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                  </p>
+                  <div class="btn">
+                    <a href="#">Discover Me</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home_item">
+              <img
+                src="./imgs/baner-right-image-02.jpg"
+                alt="Right images"
+                class="right_img"
+              />
+              <div class="text">
+                <h2>Men</h2>
+                <p>Best Clothes For Men</p>
+              </div>
+              <div class="hover_text">
+                <div class="inner">
+                  <h2>Men</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                  </p>
+                  <div class="btn">
+                    <a href="#">Discover Me</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="home_item">
+              <img
+                src="./imgs/baner-right-image-03.jpg"
+                alt="Right Images"
+                class="right_img"
+              />
+              <div class="text">
+                <h2>Kids</h2>
+                <p>Best Clothes For Kids</p>
+              </div>
+              <div class="hover_text">
+                <div class="inner">
+                  <h2>Kids</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                  </p>
+                  <div class="btn">
+                    <a href="#">Discover Me</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home_item">
+              <img
+                src="./imgs/baner-right-image-04.jpg"
+                alt="Right images"
+                class="right_img"
+              />
+              <div class="text">
+                <h2>Accessories</h2>
+                <p>Best Clothes For Accessories</p>
+              </div>
+              <div class="hover_text">
+                <div class="inner">
+                  <h2>Accessories</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
+                  </p>
+                  <div class="btn">
+                    <a href="#">Discover Me</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Home section -->
     <!-- Js link -->
     <script src="./dist/js/bundle.js"></script>
-</body>
+  </body>
 </html>

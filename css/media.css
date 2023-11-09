@@ -2,9 +2,6 @@
   .header {
     position: relative;
   }
-  .header{
-    background-color: #fff;
-  }
   .navigation {
     position: absolute;
     top: 12vh;
@@ -16,7 +13,7 @@
     transform: translateX(-100%);
     transition: all 0.4s ease-in-out;
   }
-  .navigation.active{
+  .navigation.active {
     transform: translateX(0%);
   }
   .nav_item {
@@ -25,5 +22,46 @@
   }
   .burger {
     display: block;
+  }
+  .home .content {
+    grid-template-columns: 1fr;
+  }
+  .home .row {
+    grid-template-columns: 1fr;
+  }
+  .home_item{
+    padding: 0.2rem;
+  }
+  .home_item .inner{
+    transform: translate(-50%, -50%);
+    min-height: 90%;
+    min-width: 90%;
+  }
+  .home .hover_text p{
+    display: block;
+  }
+  .home_item h1 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .home_item h1{
+    font-size: 4rem !important;
+  }
+  .home_item h2{
+    font-size: 3rem;
+  }
+  .home_item p{
+    font-size: 1.2rem;
+  }
+  .home_item .inner{
+    transform: translate(-50%, -50%);
+    min-height: 70%;
+    min-width: 70%;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+  .home .hover_text p {
+    display: none;
   }
 }
