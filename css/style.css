@@ -21,7 +21,8 @@ img {
   margin: 0 auto;
 }
 section {
-  padding: 2rem 0;
+  padding: 3rem 0;
+  border-bottom: 3px dotted #eee;
 }
 .section-start {
   padding-bottom: 2rem;
@@ -378,6 +379,72 @@ section {
   cursor: pointer;
 }
 /* //Slider mens, womens and kids section styles */
+/* Explore section styles */
+.explore .content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.explore .row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.explore .row .text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+.explore .design{
+  padding: 1rem;
+}
+.explore .text .main-title{
+  font-size: 2.1rem;
+}
+.explore .text .main-text{
+  color: #AAAAAA;
+  font-size: .9rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+.explore .quote{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+.explore .quote i{
+  font-size: 2.5rem;
+  padding-right: 0.5rem;
+}
+.explore .btn{
+  margin-top: 1rem;
+  padding: .8rem 1.3rem;
+  border: 1px solid #2a2a2a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.explore .btn a{
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: .8rem;
+  transition: all .5s ease-in-out;
+}
+.explore .btn:hover{
+  background-color: #2a2a2a;
+}
+.explore .btn:hover a{
+  color: #fff;
+}
+.explore span{
+  color: #0056b3;
+}
+/* //Explore section styles */
 /* Javascript styles */
 .show {
   display: block;

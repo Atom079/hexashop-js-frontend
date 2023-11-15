@@ -267,6 +267,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
         cardSelector: '.mens .slide',
         arrowBtnSelector: '.mens .btn'
     })
+    ;(0,_modules_slider__WEBPACK_IMPORTED_MODULE_3__["default"])({
+        wrapperSlider: '.womens .slider-wrapper',
+        carouselSlider: '.womens .slider-inner',
+        cardSelector: '.womens .slide',
+        arrowBtnSelector: '.womens .btn'
+    })
+    ;(0,_modules_slider__WEBPACK_IMPORTED_MODULE_3__["default"])({
+        wrapperSlider: '.kids .slider-wrapper',
+        carouselSlider: '.kids .slider-inner',
+        cardSelector: '.kids .slide',
+        arrowBtnSelector: '.kids .btn'
+    })
 })
 })();
 

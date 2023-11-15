@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1000px) {
   .header {
     position: relative;
@@ -49,6 +50,13 @@
   }
   .slider-wrapper .slider-inner {
     grid-auto-columns: calc((100% / 2) - 9px);
+  }
+  .explore .row,
+  .explore .content{
+    grid-template-columns: 100%;
+  }
+  .explore .row .text{
+    padding: 3rem;
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 500px) {

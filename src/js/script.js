@@ -17,4 +17,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
         cardSelector: '.mens .slide',
         arrowBtnSelector: '.mens .btn'
     })
+    slider({
+        wrapperSlider: '.womens .slider-wrapper',
+        carouselSlider: '.womens .slider-inner',
+        cardSelector: '.womens .slide',
+        arrowBtnSelector: '.womens .btn'
+    })
+    slider({
+        wrapperSlider: '.kids .slider-wrapper',
+        carouselSlider: '.kids .slider-inner',
+        cardSelector: '.kids .slide',
+        arrowBtnSelector: '.kids .btn'
+    })
 })
