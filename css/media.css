@@ -43,8 +43,19 @@
   .home_item h1 {
     font-size: 1.5rem !important;
   }
+  
+  .slider-wrapper .btn{
+    display: none;
+  }
+  .slider-wrapper .slider-inner {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
 }
 @media screen and (max-width: 1000px) and (min-width: 500px) {
+  .slider-wrapper .slider-inner {
+    grid-auto-columns: 100%;
+  }
+  
   .home_item h1{
     font-size: 4rem !important;
   }
