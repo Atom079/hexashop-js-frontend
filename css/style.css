@@ -11,6 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   color: #2a2a2a;
+  position: relative;
 }
 img {
   width: 100%;
@@ -24,6 +25,9 @@ section {
   margin: 3rem 0;
   padding: 3rem 0;
   border-bottom: 3px dotted #eee;
+}
+section.loader{
+  margin: 0;
 }
 .section-start {
   padding-bottom: 2rem;
@@ -614,6 +618,61 @@ section {
   color: #2a2a2a;
 }
 /* //Form section styles */
+/* Footer section styles */
+.footer{
+  background-color: #2a2a2a;
+  padding: 2rem 0;
+  color: #fff;
+}
+.footer .row{
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1.5rem;
+}
+.footer .logo{
+  width: 200px;
+  margin-bottom: 1.2rem;
+}
+.footer .title{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.footer a{
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all .4s ease-in-out;
+}
+.footer a:hover{
+  color: #AAAAAA;
+}
+.footer-down{
+  text-align: center;
+}
+.footer-down a{
+  display: inline;
+}
+.footer-down p{
+  font-weight: 300;
+  padding-bottom: 1rem;
+  font-size: 14px;
+}
+.foo-link{
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  transition: all .4s ease-in-out;
+}
+.foo-link:hover{
+  color: #AAAAAA;
+  cursor: pointer;
+}
+/* //Footer section styles */
 /* Javascript styles */
 .show {
   display: block;

@@ -83,6 +83,9 @@
   .form input, .link{
     margin-bottom: 1rem;
   }
+  .footer .row{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media screen and (max-width: 1000px) and (min-width: 500px) {
   .slider-wrapper .slider-inner {
@@ -112,6 +115,9 @@
   }
   .social-media .content .row{
     grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .row{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
