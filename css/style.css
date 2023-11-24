@@ -21,6 +21,7 @@ img {
   margin: 0 auto;
 }
 section {
+  margin: 3rem 0;
   padding: 3rem 0;
   border-bottom: 3px dotted #eee;
 }
@@ -548,6 +549,71 @@ section {
 }
 
 /* //Social Media section styles */
+/* Form section styles */
+.form .row{
+  display: flex;
+  justify-content: space-between;
+}
+.form-box{
+  width: 60%;
+}
+.text-box{
+  width: 40%;
+}
+.form .text-row{
+  display: flex;
+  justify-content: space-between;
+}
+.form .main-form{
+  display: flex;
+  align-items: center;
+}
+.main-form input{
+  height: 3rem;
+  padding: .7rem 1.5rem .7rem 1rem;
+  margin-right: 1rem;
+  font-style: italic;
+  font-size: 1rem;
+  color: #AAAAAA;
+  border: 1px solid #AAAAAA;
+  font-weight: 600;
+}
+.main-form .link{
+  padding: 1rem;
+  height: 3rem;
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 1px solid #2a2a2a;
+  transition: all .4s ease-in-out;
+}
+.main-form .link:hover{
+  background-color: #fff;
+  color: #2a2a2a;
+}
+.form .pre-text{
+  color: #AAAAAA;
+}
+.form .item{
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+.form .title{
+  padding-bottom: 0.3rem;
+}
+.form .item a{
+  color: #AAAAAA;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+.form .item a:hover{
+  color: #2a2a2a;
+}
+/* //Form section styles */
 /* Javascript styles */
 .show {
   display: block;
