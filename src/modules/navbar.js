@@ -6,10 +6,12 @@ function navbar({navbarSelector, burgerSelector, navbarItemSelector}){
         navbar.classList.toggle('active')
     })
     navbarItems.forEach(item=>{
-        item.addEventListener('click', ()=>{
-            document.querySelectorAll('.nav_item').forEach(item => item.classList.remove('active'))
-            item.classList.add('active')
-            navbar.classList.toggle('active')
+        item.addEventListener('click', (e)=>{
+            if (e.target && !(e.target.classList.contains('dropdown_title'))) {
+                document.querySelectorAll('.nav_item').forEach(item => item.classList.remove('active'))
+                item.classList.add('active')
+                navbar.classList.toggle('active')
+            }
         })
     })
 }

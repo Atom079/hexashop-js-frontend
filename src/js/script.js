@@ -1,4 +1,5 @@
 'use strict';
+import dropdown from "../modules/dropdown";
 import header from "../modules/header";
 import loader from "../modules/loader";
 import navbar from "../modules/navbar";
@@ -28,5 +29,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
         carouselSlider: '.kids .slider-inner',
         cardSelector: '.kids .slide',
         arrowBtnSelector: '.kids .btn'
+    })
+    dropdown({
+        dropdownSelector: '.dropdown',
+        selectSelector: '.select',
+        caretSelector: '.caret',
+        menuSelector: '.dropdown_menu'
     })
 })
